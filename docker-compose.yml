@@ -5,8 +5,8 @@ services:
     build: .
     working_dir: /home/app
     ports:
-      - '3000:3000'
-      - '9005:9005'
+      - "3000:3000"
+      - "9005:9005"
     volumes:
       - .:/home/app
     tty: true
